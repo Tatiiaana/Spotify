@@ -1,0 +1,89 @@
+.player {
+  background: #282828;
+  color: #aaaaaa;
+}
+
+.player .current-song .artist {
+  color: white;
+}
+.player .readed {
+  background: #1ed760;
+}
+
+.player .not-read {
+  background: #5e5e5e;
+}
+
+.player-infos .volume {
+  background: #5e5e5e;
+}
+
+/*MYCODE*/
+.player {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.player .current-song {
+  display: flex;
+  flex: 0 0 20%;
+}
+
+.player .current-song .album-container {
+  flex: 0 0 100px;
+  margin-right: 20px;
+}
+
+.player .current-song .album-container img {
+  width: 100%;
+}
+
+.player .current-song .infos i {
+  margin-left: 30px;
+}
+
+.player .player-actions {
+  flex: 0 0 60%;
+}
+
+.player .player-actions .controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom:10px;
+  margin-top: 20px;
+}
+
+.player .player-actions .controls i {
+  margin: 5px;
+}
+
+.player .player-actions .timebar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.player .player-actions .timebar .readed {
+  height: 5px;
+  flex: 0 0 70%;
+  margin-left: 20px;;
+}
+
+.player .player-actions .timebar .not-read {
+  height: 5px;
+  flex: 0 0 20%;
+  margin-right: 20px;
+}
+
+.player .player-infos {
+  flex: 0 0 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.player .player-infos .volume {
+  flex: 0 0 40%;
+  background-color: #5e5e5e;
+  height: 5px;;

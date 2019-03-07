@@ -1,0 +1,164 @@
+/*
+Colors:
+Text: #1A1A1A
+Green: #00B172
+White: #FFF
+*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  color: #1a1a1a;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+header .logo {
+  flex: 0 0 200px;
+}
+
+header .logo img {
+  width: 100%;
+}
+
+header .nav ul {
+  display: flex;
+}
+
+header .nav ul li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+header .nav ul li a {
+  color: #421771;
+  text-decoration: none;
+}
+
+header .nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  background-image: url(images/landing.jpg);
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 120px;
+}
+
+.intro h1 {
+  font-size: 60px;
+}
+
+.intro p {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.infos {
+  padding: 40px;
+}
+
+.infos .titre-infos {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.infos h2 {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+  border-bottom: #00b172 3px solid;
+}
+
+.infos .pictos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.infos .pictos .bloc {
+  text-align: center;
+  flex: 1;
+  padding: 10px;
+}
+
+.infos .pictos .bloc img {
+  height: 10vw;
+}
+
+.infos .pictos .bloc h3 {
+  color: #00b172;
+}
+
+.yeezy {
+  background-color: #00b172;
+  background-image: url('images/spotify-icon-white.png');
+  background-repeat: no-repeat;
+  background-size: 8%;
+  background-position: 40% center;
+  color: #fff;
+  padding: 60px 40px;
+  display: flex;
+}
+
+.yeezy .left {
+  width: 60%;
+}
+
+.yeezy .left .yeez-titre {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.yeezy .left h2 {
+  font-size: 30px;
+  padding-bottom: 10px;
+  margin: 5px 0;
+  border-bottom: #fff 3px solid;
+  white-space: nowrap;
+}
+
+/* .yeezy .left .yeez-in {
+  display: flex;
+} */
+
+.yeezy .left .yeez-in .yeez-content {
+  /* flex: 1; */
+  width: 50%;
+}
+
+.yeezy .left .yeez-in .yeez-content h3 {
+  font-size: 25px;
+}
+
+.yeezy .left .yeez-in .yeez-content p {
+  font-size: 17px;
+}
+
+/* .yeezy .left .yeez-in .spot-picto {
+  flex: 1;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.yeezy .left .yeez-in .spot-picto img {
+  width: 30%;
+} */
+
+.yeezy .right {
+  width: 40%;
+}
+
+.yeezy .right img {
+  width: 100%;
+}

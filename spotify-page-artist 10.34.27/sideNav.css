@@ -1,0 +1,28 @@
+.left-nav {
+  background: #282828;
+  color: #aaaaaa;
+}
+
+.menu-list li {
+  color: #aaaaaa;
+}
+
+.menu-list li:hover {
+  border-right: solid 3px #1ed760;
+  color: #ffffff;
+}
+
+.new-playlist {
+  color: #aaaaaa;
+}
+
+.new-playlist:hover {
+  background: #424242;
+  color: #ffffff;
+}
+
+.right-nav {
+  background: #282828;
+  border-top: 1px solid #181818;
+  border-bottom: 1px solid #181818;
+}

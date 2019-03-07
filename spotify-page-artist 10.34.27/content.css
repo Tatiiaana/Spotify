@@ -1,0 +1,86 @@
+.header {
+  height: 300px;
+  width: 100%;
+}
+
+.info {
+  color: #aaaaaa;
+}
+
+.info-value {
+  color: white;
+}
+
+.play {
+  background: #1ed760;
+  color: white;
+  border: 1px solid #1ed760;
+}
+
+.play:hover {
+  background: #43e57d;
+}
+
+.listeners {
+  color: white;
+  color: #aaaaaa;
+}
+.summary-head {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.summary-head .first-part span {
+  color: #aaaaaa;
+}
+
+.summary-head .first-part span.active {
+  border-bottom: 4px solid #1ed760;
+}
+
+.summary-head .first-part span.active,
+.summary-head .first-part span:hover {
+  color: white;
+}
+
+.albums {
+  background: #181818;
+}
+
+.albums .title {
+  color: #aaaaaa;
+}
+
+.albums .latest {
+  background: #282828;
+  color: #aaaaaa;
+}
+
+.album-row {
+  border-top: 1px solid #282828;
+}
+
+.album-row:hover {
+  background: #282828;
+}
+
+.album-row .numbers {
+  color: #aaaaaa;
+}
+
+.album-row .album-title {
+  color: white;
+}
+
+.album-row .explicit {
+  border-color: #424242;
+  color: #424242;
+}
+
+.related-artists .related-row {
+  color: #ffffff;
+  background: #282828;
+}
+
+.related-artists .related-row:hover {
+  background: #373737;
+}
